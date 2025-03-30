@@ -54,15 +54,18 @@ function playGame(){
             playRound(humanSelection, computerSelection)
 
     }
+function declareResult(){
+    console.log(`Your score is ${humanScore} and computer score is ${computerScore}`)
+    if(computerScore>humanScore){
+        console.log("Computer won");
+    }else if (humanScore>computerScore){
+        console.log("You win");
+    }else{
+        console.log("You tied!")
+    }
 
-console.log(`Your score is ${humanScore} and computer score is ${computerScore}`)
-if(computerScore>humanScore){
-    console.log("Computer won");
-}else if (humanScore>computerScore){
-    console.log("You win");
-}else{
-    console.log("You tied!")
 }
+
 
 }
 
