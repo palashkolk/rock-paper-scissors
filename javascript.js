@@ -65,7 +65,6 @@ function playGame(){
             console.log("Result tied!")
         }
     }
-    // declareResult()
 }
 
 playGame()
